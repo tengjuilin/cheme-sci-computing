@@ -1,0 +1,5 @@
+# html output
+*.html
+
+# jupyter notebooks
+.ipynb_checkpoints
