@@ -1,0 +1,19 @@
+format: jb-book
+root: README
+
+parts:
+- caption: Optimization
+  chapters:
+    - file: cheme-sci-computing/optimization/curve-fitting
+    - file: cheme-sci-computing/optimization/solving-linear-systems
+    - file: cheme-sci-computing/optimization/solving-nonlinear-systems
+- caption: Programming
+  chapters:
+    - file: cheme-sci-computing/programming/control-flow
+    - file: cheme-sci-computing/programming/review-linear-system-control-flow
+    - file: cheme-sci-computing/programming/review-nonlinear-system-control-flow-curve-fitting
+- caption: Differential Equations
+  chapters:
+    - file: cheme-sci-computing/differential-equations/solving-ode-systems
+    - file: cheme-sci-computing/differential-equations/solving-time-independent-pdes
+    - file: cheme-sci-computing/differential-equations/solving-time-dependent-pdes
