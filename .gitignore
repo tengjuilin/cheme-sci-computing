@@ -1,5 +1,8 @@
 # html output
 *.html
 
+# build
+_build/
+
 # jupyter notebooks
 .ipynb_checkpoints
