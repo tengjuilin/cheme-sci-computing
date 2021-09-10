@@ -1,31 +1,88 @@
 h1 {
-    font-size: 2.5rem;
-}
-
-h2 {
     font-size: 2rem;
 }
 
-h3 {
+h2 {
     font-size: 1.7rem;
 }
 
-h4 {
+h3 {
     font-size: 1.5rem;
 }
 
-h5 {
-    font-size: 1.3rem;
+h4 {
+    font-size: 1.2rem;
 }
 
-p   code span.pre {
+h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+p code span.pre {
     font-size: 1rem !important;
 }
 
-body {
+tt, code, kbd, samp, pre {
+    font-size: 0.9rem !important;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
     font-family: Roboto, Open Sans, system-ui, -apple-system, BlinkMacSystemFont, PingFang SC, Microsoft YaHei UI, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .container-xl {
     max-width: 98%;
+}
+
+@media print {
+    .d-none.d-md-block.col-md-2.bd-toc.show,
+    .topbar.container-xl.fixed-top,
+    footer {
+        display: none !important;
+    }
+
+    .col.py-md-3.pl-md-4.bd-content.overflow-auto {
+        padding: 0 !important;
+    }
+
+    .col-12.col-md-9.pl-md-3.pr-md-0 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    h5 {
+        font-size: 1rem;
+        font-style: italic;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        margin: 1rem 0;
+    }
+
+    body img {
+        max-height: 20rem;
+    }
 }
