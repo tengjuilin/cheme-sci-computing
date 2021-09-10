@@ -28,7 +28,7 @@ p code span.pre {
     font-size: 1rem !important;
 }
 
-tt, code, kbd, samp, pre {
+div.cell_input div.highlight pre {
     font-size: 0.9rem !important;
 }
 
