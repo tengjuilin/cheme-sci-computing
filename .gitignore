@@ -6,6 +6,7 @@
 
 # build
 _build/
+.hugo_build.lock
 
 # jupyter notebooks
 .ipynb_checkpoints
