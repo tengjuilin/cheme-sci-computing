@@ -20,6 +20,7 @@ CHEME 375 covers Excel, Python, and ASPEN skills needed for chemical engineering
 |Control flow|VLE x/y diagram, Txy diagram|`scipy.optimize.fsolve()`|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/programming/control-flow.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/programming/control-flow.html)|
 |Comprehensive review|Determining Antoine's coefficients|`scipy.optimize.fsolve()`|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/programming/review-nonlinear-system-control-flow-curve-fitting.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/programming/review-nonlinear-system-control-flow-curve-fitting.html)|
 |Comprehensive review|Solving recycle streams|`scipy.linalg.solve()`|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/programming/review-linear-system-control-flow.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/programming/review-linear-system-control-flow.html)|
+|Control flow, functions|Determining equilibrium compositions using EOS|-|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/programming/equilibrium-composition-by-equation-of-state.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/programming/equilibrium-composition-by-equation-of-state.html)|
 
 ## Differential Equations
 
