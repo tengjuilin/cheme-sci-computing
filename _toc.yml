@@ -12,6 +12,7 @@ parts:
     - file: cheme-sci-computing/programming/control-flow
     - file: cheme-sci-computing/programming/review-linear-system-control-flow
     - file: cheme-sci-computing/programming/review-nonlinear-system-control-flow-curve-fitting
+    - file: cheme-sci-computing/programming/equilibrium-composition-by-equation-of-state
 - caption: Differential Equations
   chapters:
     - file: cheme-sci-computing/differential-equations/solving-ode-systems
