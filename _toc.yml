@@ -7,14 +7,15 @@ parts:
     - file: cheme-sci-computing/optimization/curve-fitting
     - file: cheme-sci-computing/optimization/solving-linear-systems
     - file: cheme-sci-computing/optimization/solving-nonlinear-systems
-- caption: Programming
-  chapters:
-    - file: cheme-sci-computing/programming/control-flow
-    - file: cheme-sci-computing/programming/review-linear-system-control-flow
-    - file: cheme-sci-computing/programming/review-nonlinear-system-control-flow-curve-fitting
-    - file: cheme-sci-computing/programming/equilibrium-composition-by-equation-of-state
 - caption: Differential Equations
   chapters:
     - file: cheme-sci-computing/differential-equations/solving-ode-systems
     - file: cheme-sci-computing/differential-equations/solving-time-independent-pdes
     - file: cheme-sci-computing/differential-equations/solving-time-dependent-pdes
+- caption: Applications
+  chapters:
+    - file: cheme-sci-computing/applications/solving-recycle-streams
+    - file: cheme-sci-computing/applications/vle-diagram-raoults-law
+    - file: cheme-sci-computing/applications/determining-equilibrium-composition-eos-method
+    - file: cheme-sci-computing/applications/vle-diagram-eos-method
+    - file: cheme-sci-computing/applications/determining-antoines-coefficients

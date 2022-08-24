@@ -13,15 +13,6 @@ CHEME 375 covers Excel, Python, and ASPEN skills needed for chemical engineering
 |Solving linear systems|Balancing chemical equations|`scipy.linalg.inv()` <br/> `scipy.linalg.solve()`|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/optimization/solving-linear-systems.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/optimization/solving-linear-systems.html)|
 |Solving nonlinear systems|Solving binary vapor liquid equilibrium (VLE) problems|`scipy.optimize.fsolve()`|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/optimization/solving-nonlinear-systems.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/optimization/solving-nonlinear-systems.html)|
 
-## Programming
-
-|Topic|ChemE Applications|Python Skills|Jupyter <br/> Notebook|Online|
-|-|-|-|:-:|:-:|
-|Control flow|VLE x/y diagram, Txy diagram|`scipy.optimize.fsolve()`|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/programming/control-flow.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/programming/control-flow.html)|
-|Comprehensive review|Determining Antoine's coefficients|`scipy.optimize.fsolve()`|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/programming/review-nonlinear-system-control-flow-curve-fitting.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/programming/review-nonlinear-system-control-flow-curve-fitting.html)|
-|Comprehensive review|Solving recycle streams|`scipy.linalg.solve()`|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/programming/review-linear-system-control-flow.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/programming/review-linear-system-control-flow.html)|
-|Control flow, functions|Determining equilibrium compositions using EOS|-|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/programming/equilibrium-composition-by-equation-of-state.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/programming/equilibrium-composition-by-equation-of-state.html)|
-
 ## Differential Equations
 
 |Topic|ChemE Applications|Python Skills|Jupyter <br/> Notebook|Online|
@@ -29,3 +20,13 @@ CHEME 375 covers Excel, Python, and ASPEN skills needed for chemical engineering
 |Solving systems of ODEs|Chemical kinetics of one reaction and reaction networks|Euler's method <br/>`scipy.integrate.solve_ivp()`|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/differential-equations/solving-ode-systems.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/differential-equations/solving-ode-systems.html)|
 |Solving time-independent PDEs|Time-independent 2D heat transfer of thin metal slab|`scipy.linalg.solve()`|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/differential-equations/solving-time-independent-pdes.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/differential-equations/solving-time-independent-pdes.html)|
 |Solving time-dependent PDEs|Time-dependent 1D heat transfer of thin rod|Finite difference method|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/differential-equations/solving-time-dependent-pdes.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/differential-equations/solving-time-dependent-pdes.html)|
+
+## Applications
+
+|ChemE Applications|Python Skills|Jupyter <br/> Notebook|Online|
+|-|-|:-:|:-:|
+|Solving recycle streams|`scipy.linalg.solve()`|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/applications/solving-recycle-streams.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/applications/solving-recycle-streams.html)|
+|Constructing VLE diagram using Raoult's law|`scipy.optimize.fsolve()`|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/applications/vle-diagram-raoults-law.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/applications/vle-diagram-raoults-law.html)|
+|Determining equilibrium compositions using equation of state (EOS) methods|`numpy.polynomial`<br/>`.polynomial.polyroots()`|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/applications/determining-equilibrium-composition-eos-method.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/applications/determining-equilibrium-composition-eos-method.html)|
+|Constructing VLE diagram using equation of state (EOS) methods|`numpy.polynomial`<br/>`.polynomial.polyroots()`|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/applications/vle-diagram-eos-method.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/applications/vle-diagram-eos-method.html)|
+|Determining Antoine's coefficients|`scipy.optimize.fsolve()`|[ipynb](https://github.com/tengjuilin/cheme-sci-computing/blob/main/cheme-sci-computing/applications/determining-antoines-coefficients.ipynb)|[html](https://cheme-sci-computing.netlify.app/cheme-sci-computing/applications/determining-antoines-coefficients.html)|
