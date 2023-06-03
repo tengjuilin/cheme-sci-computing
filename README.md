@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/github/license/tengjuilin/cheme-sci-computing)](https://creativecommons.org/licenses/by/4.0/)
 [![Website](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fcheme-sci-computing.netlify.app%2F)](https://cheme-sci-computing.netlify.app/)
+[![DOI](https://zenodo.org/badge/378129460.svg)](https://zenodo.org/badge/latestdoi/378129460)
 
 CHEME 375 covers Excel, Python, and ASPEN skills needed for chemical engineering applications. Applied scientific computing and numerical methods are covered. Taken in Sp21 with [Professor Jim Pfaendtner](https://www.cheme.washington.edu/facultyfinder/jim-pfaendtner).
 
